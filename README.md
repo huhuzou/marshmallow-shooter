@@ -226,7 +226,7 @@ We soon realised that the pink marshmallows are slightly larger than the white o
 
 ## Videos
 
-**Demo**
+**Click the image to play the demo**
 
 [![Watch the demo](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/18.png)](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/18.mp4)
 
