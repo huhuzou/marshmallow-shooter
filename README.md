@@ -1,5 +1,5 @@
 
-<img width="1001" height="920" alt="Screenshot 2025-11-05 at 13 03 32" src="https://github.com/user-attachments/assets/58adf039-baf4-4a1e-8b82-1453fb33d539" />
+![Project Overview](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/1.jpeg)
 
 ## Project Directory
 
@@ -33,12 +33,12 @@ We wanted the final product to look simplistic, robotic and elegant. Inspired by
 
 We made a wooden box to attach the camera and the feeding machine together into one cohesive object. We decided to use 12mm plywood as it provides a good balance between strength, durability and ease of cutting, while keeping the overall weight manageable. The box housed the circuitry and the majority of the wiring to ensure a clean aesthetic. Heat-shrink and crimped connections allowed us to make the wires and connections neater and stronger, whilst ensuring repeatable connection and disconnection during debugging and ML training.
 
-<img width="538" height="796" alt="Screenshot 2025-11-04 at 19 14 37" src="https://github.com/user-attachments/assets/c19f43f3-3931-4adf-bfab-4f1464dd1ceb" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/2.jpeg)
 
 **The final design after heat-shrink and cable management:**
 
-![IMG_8611](https://github.com/user-attachments/assets/883dae26-5194-4670-9d95-d16f838d5374)
-![IMG_8610](https://github.com/user-attachments/assets/7ab06d3d-2443-4b6d-9f47-c2c06236f6be)
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/3.jpeg)
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/4.jpeg)
 
 
 ## Mechanical Design
@@ -49,43 +49,42 @@ Using the mechanism of controlling 4 servos to make a robotic arm move, we simpl
 
 We experimented with a catapult launching mechanism, prior to the baseball pitching mechanism we have implemented into our design. We decided not to continue with the catapult, as it would take up more space and did not provide adequate acceleration and accuracy. The mechanism worked by stretching 2 springs and placing a backboard behind two servos, once a button is pressed, the two servos turn and the backboard is released forward as the 2 springs tighten and move towards the slit in the design.
 
-<img width="499" height="485" alt="Screenshot 2025-10-30 at 17 08 26" src="https://github.com/user-attachments/assets/c6b80c7e-6da2-445a-8077-78f34e2aa339" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/5.jpeg)
 
 **Baseball pitching mechanism (2 power supplies)**
 
 With the baseball pitching mechanism, we first made it work with the use of 2 power supplies - one for each switch. We shortly realised that we do not need to power the 2 motors separately and so we altered the circuit so that both motors can be powered by the same power supply. 
 
-<img width="563" height="531" alt="Screenshot 2025-10-30 at 17 08 31" src="https://github.com/user-attachments/assets/90cf5c37-0059-4267-839a-cb60d543bf33" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/6.jpeg)
 
 **Baseball pitching mechanism (1 power supply) with adjustable distance**
 
 We built a wooden structure to support the DC motors where the relative distance between the motors could be adjusted, allowing us to determine the ideal distance between the acceleration wheels. 
 
-<img width="538" height="796" alt="Screenshot 2025-11-04 at 19 14 37" src="https://github.com/user-attachments/assets/3bb10294-936d-47c6-aeca-f8bcdfef44c7" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/7%202%20Large.jpeg)
 
 **Feeding system with acrylic pipe, rack and pinion marshmallow engagement mechanism**
 
-<img width="586" height="612" alt="Screenshot 2025-11-06 at 14 53 02" src="https://github.com/user-attachments/assets/2ed86a0a-4866-41ca-b3fc-f91c022492e4" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/8.jpeg)
 
 The body of the device was developed from the ground up in Rhino, taking into account the dimensions of the servos, motors, feeder tube, etc. Based on our wooden prototypes, we incorporated the elements we had tested, such as the propulsion wheels, feeding system and feeding tube.
 
 One clear tube (ID 11mm, OD 13mm, acrylic tubing) was added to aid the reloading mechanism. Marshmallows fit snugly into the tube and enter a slot in which the rack gear can push the marshmallow through the two rotating motors.
 
-<img width="545" height="381" alt="Screenshot 2025-11-04 at 10 27 29" src="https://github.com/user-attachments/assets/307aba49-434a-44b3-9f26-1c4ddebcc994" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/9.jpeg)
 
 We then 3D printed the baseball pitching mechanism in alignment with our aim for a robotic design. PLA is less dense than wood and we wanted the prototype to be as light as possible so the servos can move it more easily according to the power output of the servos. 
 
 First 3D printed prototype (green PLA, with 2 slits to slide in the 2 motors with gears attached)
 
-<img width="563" height="531" alt="Screenshot 2025-10-30 at 17 08 31" src="https://github.com/user-attachments/assets/1e506691-739e-4259-8905-6c7f0b0af971" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/10%202%20Large.jpeg)
 
 **Laser pointer (later eliminated)**
 
 
 We also considered adding a laser pointer to help aim at the mouth during the ML training process but eliminated it due to health and safety concerns.
 
-<img width="538" height="796" alt="Screenshot 2025-11-04 at 19 14 37" src="https://github.com/user-attachments/assets/e40b7ad7-427c-47a6-9644-b403d0277ef3" />
-
+<img width="538" height="796" alt="Screenshot 2025-11-04 at 19 14 37" src="https://github.com/user-attachments/assets/e40b7ad7-427c-47a6-9644-b403d0277ef3" />![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/11%202%20Large.jpeg)
 **Problems with the design**
 
 Launching mechanism weight and friction - the head of the device was too heavy for the servo to move freely. To address this, we cut out sections of the feeder mechanism housing and decreased the surface area of the bearing surfaces in the pivots. This allowed for more efficient power transfer and responsive turning and tilting movements.
@@ -94,7 +93,7 @@ Launching mechanism weight and friction - the head of the device was too heavy f
 
 This was addressed by testing various elements. Adjusting the height of the feeding tube in relation to the track the marshmallow was pushed along by the rack gear helped avoid double launches where two marshmallows fell into the feeder chamber. Changing the height and shape of the rack allowed us to block the feeder tube during the launching sequence whilst more reliably presenting the marshmallow to the acceleration wheels. Testing the surface textures of the acceleration wheels helps to increase friction on the marshmallows during launch, allowing the system to reliably grip the marshmallow and also self-clear jams. The top photo shows the wheel with the least friction, as it is smooth, progressing to the wheel with the most friction and grip (bottom photo), which is the one we used in our final project. The middle photo shows the wheel we used; it was better than the top one but it still did not have enough grip for the marshmallows.
 
-<img width="538" height="796" alt="Screenshot 2025-11-04 at 19 14 37" src="https://github.com/user-attachments/assets/8489aef5-66c7-40b4-bf34-c58e8acc2132" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/12.jpeg)
 
 
 ## Software design
@@ -150,19 +149,19 @@ Acrylic tubing ID 11mm, OD 13mm, 150mm
 
 **Circuit diagram**
 
-<img width="603" height="575" alt="wiring copy 1" src="https://github.com/user-attachments/assets/a8047db2-9288-482a-b6e7-843af8de6b80" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/13.jpeg)
 
 To make the circuits in a manner robust enough to withstand the designed movements of the system, the servos and motor wiring were connected to a small junction board mounted to the box via Molex connectors. Molex-terminated cables, heat-shrunk together, connected the junction board to the main circuitry. All remaining components were soldered to a Veroboard, which is housed inside the wooden base.
 
-<img width="603" height="575" alt="Screenshot 2025-11-04 at 19 12 11" src="https://github.com/user-attachments/assets/414f0ae9-c6da-49d8-92a1-037aa7ecc9b9" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/14.jpeg)
 
 This is a diagram displaying the circuit on the Veroboard:
 
-<img width="731" height="660" alt="Screenshot 2025-11-05 at 12 09 26" src="https://github.com/user-attachments/assets/e4840b57-7a30-401a-8a30-59a2431b3598" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/15.jpeg)
 
 To make the connections neater, we also added this Veroboard, which have labels S1, S2, S3, M1 and M2, which stand for servos 1,2,3 and motors 1 and 2, respectively. This is also so we can clearly see how each motor/servo is connected when we rebuild the setup and ensure consistent DC motor polarity.
 
-<img width="603" height="575" alt="Screenshot 2025-11-04 at 19 10 30" src="https://github.com/user-attachments/assets/101f34bc-232e-4f5c-8ad8-59342fbec253" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/16.jpeg)
 
 ## Justification for Using MediaPipe Face Mesh
 
@@ -222,34 +221,13 @@ If we could also simulate the design, precise values of the metrics can be mathe
 We bought two bags of Waitrose & Partners Cooks Ingredients Mini Pink & White Marshmallows (150g) (https://www.waitrose.com/ecom/products/cooks-ingredients-mini-pink-white-marshmallows/479274-816966-816967?srsltid=AfmBOopxX4-NcZ0MfgPjvwgXtyKXMwVh3HlS8yC_JedqS964UFjpT6UL). 
 We soon realised that the pink marshmallows are slightly larger than the white ones and within the white ones, there are smaller ones and larger ones. We sorted the marshmallows into 3 piles - the smallest ones (left) tend to double-fire and the largest ones (right) tend to jam the machine, hence, we are using the medium sized ones (middle). We determined the size by sliding marshmallows down different sized tubes manually. The smallest ones slid through a tube that is slightly smaller than the one in the actual machine and the medium ones slid through one of the same dimensions as the one used in the actual machine.
 
-<img width="758" height="437" alt="Screenshot 2025-11-05 at 12 18 35" src="https://github.com/user-attachments/assets/7f881930-5d00-494f-a67b-b476165faf63" />
+![Image](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/17.jpeg)
 
 
-## Progress Videos
+## Videos
 
-**1. Started by training the model so that an LED lights up every time a mouth opens**
+**Demo**
 
-https://github.com/user-attachments/assets/9f1ab8f8-1906-420e-bfd5-74432b101ccb
+[![Watch the demo](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/18.png)](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/18.mp4)
 
-**2. Then trained it so 2 DC motors start rotating every time a mouth opens**
-**3. Then trained it so 2 DC motors start rotating every time a mouth opens and stop rotating every time a mouth closes**
-
-https://github.com/user-attachments/assets/62442609-ecc1-4961-ac78-aa7f64cbc1b0
-
-**4. Add in aiming by controlling 2 servos to move the shooter in the x, y directions**
-**5. Added one servo to reload**
-
-
-https://github.com/user-attachments/assets/ee7fe396-0729-498c-8f46-55bcc68230ff
-
-
-**6. Found the right settings to shoot straight**
-
-https://github.com/user-attachments/assets/c3553c09-3da6-47c0-9b79-7b0187a3b770
-
-
-
-
-
-
-
+[![Watch the demo](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/19.png)](https://github.com/huhuzou/marshmallow-shooter/raw/main/marshmallow_feeder_images/19.mp4)
